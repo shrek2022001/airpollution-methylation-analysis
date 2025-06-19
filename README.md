@@ -4,7 +4,7 @@ This project simulates an epigenome-wide association study (EWAS) of prenatal ai
 
 ---
 
-## 🧪 Project Summary
+## Project Summary
 
 - **Dataset**: Simulated Illumina 450K methylation array (10,000 CpG probes × 500 samples)
 - **Exposure Variable**: High-resolution PM2.5 concentration (μg/m³)
@@ -13,7 +13,7 @@ This project simulates an epigenome-wide association study (EWAS) of prenatal ai
 
 ---
 
-## 🔧 Methods
+## Methods
 
 - Simulated methylation beta values using `rbeta()` to reflect biological variability
 - Simulated PM2.5 exposure with normal distribution centered at 20 μg/m³
@@ -23,7 +23,7 @@ This project simulates an epigenome-wide association study (EWAS) of prenatal ai
 
 ---
 
-## 📈 Key Results
+## Key Results
 
 - Identified 200 top-ranked CpGs (DMRs) with statistically significant associations (FDR < 0.05)
 - Observed enrichment in genes related to inflammation and cardiovascular health
@@ -31,7 +31,7 @@ This project simulates an epigenome-wide association study (EWAS) of prenatal ai
 
 ---
 
-## 📁 Files
+## Files
 
 | File                                  | Description                                      |
 |---------------------------------------|--------------------------------------------------|
@@ -42,20 +42,20 @@ This project simulates an epigenome-wide association study (EWAS) of prenatal ai
 
 ---
 
-## 🔬 Tools & Packages
+## Tools & Packages
 
 - `R`, `limma`, `data.table`, `ggplot2`
 - Ready for expansion with `missMethyl` and GO enrichment
 
 ---
 
-## 💡 Motivation
+## Motivation
 
 Environmental exposures during pregnancy may leave lasting epigenetic marks on offspring. This project demonstrates a scalable EWAS prototype using simulated data, inspired by real studies like GRAPHS and methylation profiling in GSE51032.
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Shreya Ekande**  
 M.S. Bioinformatics | Indiana University Indianapolis  
@@ -63,7 +63,7 @@ M.S. Bioinformatics | Indiana University Indianapolis
 
 ---
 
-## 📌 Citation
+## Citation
 
 If referencing this prototype in teaching, discussion, or derivative work, please cite this repository and link to the original GSE51032 dataset as the biological inspiration.
 
